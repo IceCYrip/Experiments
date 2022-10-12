@@ -28,6 +28,7 @@ const AddingInputs = () => {
     <div className="main">
       <div className="buttons">
         <button
+          disabled={count.length === 5 ? true : false}
           className="click"
           onClick={() => {
             Adding();
@@ -36,6 +37,7 @@ const AddingInputs = () => {
           +
         </button>
         <button
+          disabled={count.length === 1 ? true : false}
           className="click"
           onClick={() => {
             Subtracting();
