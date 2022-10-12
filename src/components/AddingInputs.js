@@ -16,7 +16,7 @@ const AddingInputs = () => {
 
   function DataHandling(index, value) {
     const temp = count;
-    temp[index] = { id: index, name: value };
+    temp[index] = { id: index + 1, name: value };
     setCount(temp);
   }
 
