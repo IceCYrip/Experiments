@@ -28,7 +28,7 @@ const CountingCharacters = () => {
         word++
       }
     }
-    setWordCount(word)
+    setWordCount(spaces)
     setNonSpaceCount(sentence.length - spaces)
   }
 
@@ -41,14 +41,14 @@ const CountingCharacters = () => {
 
   return (
     <>
-      <div className='main'>
+      <div className="main">
         <span style={{ marginTop: '10vh', marginBottom: '5px' }}>
           Enter your sentence:
         </span>
         <div>
           <input
-            id='input'
-            type='text'
+            id="input"
+            type="text"
             onChange={(e) => {
               setSentence(e.target.value)
             }}

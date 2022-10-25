@@ -1,13 +1,14 @@
-import React from "react";
-import AddingInputs from "./components/AddingInputs";
+import React from 'react'
+import AddingInputs from './components/AddingInputs'
+import CountingCharacters from './components/CountingCharacters'
 
 const App = () => {
   return (
     <div>
-      {/* <label>Hello World</label> */}
-      <AddingInputs />
+      {/* <AddingInputs /> */}
+      <CountingCharacters />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
