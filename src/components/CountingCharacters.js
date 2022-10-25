@@ -7,30 +7,16 @@ const CountingCharacters = () => {
   const [wordCount, setWordCount] = useState(0)
 
   useEffect(() => {
-    SpaceCounter()
-  }, [sentence])
-
-  function SpaceCounter() {
-    let spaces = 0,
-      word = 0
+    let spaces = 0
 
     for (let i = 0; i < sentence.length; i++) {
       if (sentence[i] === ' ') {
         spaces++
       }
-      if (
-        sentence[i - 1] !== ' ' &&
-        sentence[i] === ' ' &&
-        sentence[i + 1] !== ' '
-        //   ||
-        // (sentence[sentence.length - 1] !== ' ' && sentence[i] !== ' ')
-      ) {
-        word++
-      }
     }
     setWordCount(spaces)
     setNonSpaceCount(sentence.length - spaces)
-  }
+  }, [sentence])
 
   function Reset() {
     let resetting = document?.getElementById('input')

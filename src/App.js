@@ -1,5 +1,5 @@
 import React from 'react'
-import AddingInputs from './components/AddingInputs'
+// import AddingInputs from './components/AddingInputs'
 import CountingCharacters from './components/CountingCharacters'
 
 const App = () => {
