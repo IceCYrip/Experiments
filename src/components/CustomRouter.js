@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom'
 
 import Home from './Home'
@@ -26,6 +26,9 @@ export default CustomRouter
 
 function HomeButton() {
   const navigate = useNavigate()
+
+  const [buttonState, setButtonState] = useState(false)
+
   return (
     <>
       <button
@@ -39,6 +42,7 @@ function HomeButton() {
         }}
         onClick={() => {
           navigate('/')
+          setButtonState(true)
         }}
       >
         Home
