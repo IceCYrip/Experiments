@@ -1,13 +1,24 @@
 import React from 'react'
-// import AddingInputs from './components/AddingInputs'
-import CountingCharacters from './components/CountingCharacters'
+import CustomRouter from './components/CustomRouter'
 
 const App = () => {
   return (
-    <div>
-      {/* <AddingInputs /> */}
-      <CountingCharacters />
-    </div>
+    <>
+      {/* <button
+        style={{
+          width: 120,
+          height: 40,
+          fontSize: 'large',
+          position: 'absolute',
+          top: '2%',
+          left: '2%',
+        }}
+      >
+        Home
+      </button> */}
+
+      <CustomRouter />
+    </>
   )
 }
 

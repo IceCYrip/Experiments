@@ -1,8 +1,11 @@
-import React, { useState } from 'react'
-import './AddingInputs.css'
+import React, { useEffect, useState } from 'react'
 
 const AddingInputs = () => {
   const [count, setCount] = useState([1])
+
+  useEffect(() => {
+    document.title = 'Adding Inputs'
+  }, [])
 
   function Adding() {
     setCount((oldElements) => {
@@ -25,11 +28,28 @@ const AddingInputs = () => {
   }
 
   return (
-    <div className="main">
-      <div className="buttons">
+    <div
+      style={{
+        width: '100vw',
+        paddingTop: '10vh',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+      }}
+    >
+      <h1>Adding Inputs</h1>
+      <div style={{ display: 'flex' }}>
         <button
+          style={{
+            width: 40,
+            height: 40,
+            fontSize: 30,
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            margin: '5px 5px',
+          }}
           disabled={count.length === 5 ? true : false}
-          className="click"
           onClick={() => {
             Adding()
           }}
@@ -38,7 +58,15 @@ const AddingInputs = () => {
         </button>
         <button
           disabled={count.length === 1 ? true : false}
-          className="click"
+          style={{
+            width: 40,
+            height: 40,
+            fontSize: 30,
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            margin: '5px 5px',
+          }}
           onClick={() => {
             Subtracting()
           }}
@@ -49,7 +77,7 @@ const AddingInputs = () => {
 
       {count.map((value, index) => {
         return (
-          <div className="inputs">
+          <div style={{ margin: '5px 5px' }}>
             <input
               key={index}
               type="text"
