@@ -1,0 +1,256 @@
+.main {
+  height: 80vh;
+  width: 90vw;
+  padding-left: 10vw;
+  padding-top: 20vh;
+  background-color: whitesmoke;
+}
+
+.dinosaurPlate {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  position: relative;
+}
+
+/* +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ */
+
+.black1 {
+  width: 70px;
+  height: 8px;
+  background-color: black;
+
+  position: absolute;
+  top: 15%;
+  right: 29%;
+}
+.black2 {
+  width: 100px;
+  height: 50px;
+  background-color: black;
+
+  position: absolute;
+  top: 16%;
+  right: 26%;
+}
+.white1 {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+
+  position: absolute;
+  top: 17%;
+  right: 40.5%;
+}
+.black3 {
+  width: 48px;
+  height: 15px;
+  background-color: black;
+
+  position: absolute;
+  top: 26%;
+  right: 36.5%;
+}
+.black4 {
+  width: 75px;
+  height: 8px;
+  background-color: black;
+
+  position: absolute;
+  top: 29%;
+  right: 31%;
+}
+
+.black4-1 {
+  width: 25px;
+  height: 8px;
+  background-color: black;
+
+  position: absolute;
+  top: 37%;
+  right: 34%;
+}
+.black4-2 {
+  width: 11px;
+  height: 20px;
+  background-color: black;
+
+  position: absolute;
+  top: 37%;
+  right: 34%;
+}
+
+.black5 {
+  width: 55px;
+  height: 15px;
+  background-color: black;
+
+  position: absolute;
+  top: 30.7%;
+  right: 38%;
+}
+.black6 {
+  width: 73px;
+  height: 15px;
+  background-color: black;
+
+  position: absolute;
+  top: 33.7%;
+  right: 38%;
+}
+.black7 {
+  width: 85px;
+  height: 15px;
+  background-color: black;
+
+  position: absolute;
+  top: 36.7%;
+  right: 38%;
+}
+.black8 {
+  width: 95px;
+  height: 13px;
+  background-color: black;
+
+  position: absolute;
+  top: 39.7%;
+  right: 38%;
+}
+
+.black9 {
+  width: 175px;
+  height: 23px;
+  background-color: black;
+
+  position: absolute;
+  top: 42.3%;
+  right: 38%;
+}
+
+.black10 {
+  width: 152px;
+  height: 10px;
+  background-color: black;
+
+  position: absolute;
+  top: 47%;
+  right: 41%;
+}
+.black11 {
+  width: 132px;
+  height: 10px;
+  background-color: black;
+
+  position: absolute;
+  top: 49%;
+  right: 43%;
+}
+.black12 {
+  width: 122px;
+  height: 10px;
+  background-color: black;
+
+  position: absolute;
+  top: 51%;
+  right: 45%;
+}
+.black12 {
+  width: 122px;
+  height: 10px;
+  background-color: black;
+
+  position: absolute;
+  top: 51%;
+  right: 45%;
+}
+.black13 {
+  width: 50px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  top: 40.3%;
+  right: 63%;
+}
+.black14 {
+  width: 35px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  top: 38.3%;
+  right: 66%;
+}
+.black15 {
+  width: 25px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  top: 36.3%;
+  right: 68%;
+}
+.black16 {
+  width: 12px;
+  height: 32px;
+  background-color: black;
+  position: absolute;
+  top: 30%;
+  right: 70.5%;
+}
+
+.black17 {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+
+  position: absolute;
+  top: 53%;
+  right: 47%;
+}
+.black18 {
+  width: 10px;
+  height: 35px;
+  background-color: black;
+  position: absolute;
+  top: 57%;
+  right: 47%;
+}
+.black19 {
+  width: 26px;
+  height: 11px;
+  background-color: black;
+  position: absolute;
+  top: 62%;
+  right: 43.7%;
+}
+.black22 {
+  width: 10px;
+  height: 35px;
+  background-color: black;
+  position: absolute;
+  top: 57%;
+  right: 61%;
+}
+.black23 {
+  width: 26px;
+  height: 11px;
+  background-color: black;
+  position: absolute;
+  top: 62%;
+  right: 57.8%;
+}
+
+.black20 {
+  width: 43px;
+  height: 20px;
+  background-color: black;
+  position: absolute;
+  top: 53%;
+  right: 54.4%;
+}
+.black21 {
+  width: 20px;
+  height: 15px;
+  background-color: black;
+  position: absolute;
+  top: 57%;
+  right: 57.4%;
+}
