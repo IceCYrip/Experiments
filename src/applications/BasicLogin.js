@@ -26,7 +26,7 @@ const BasicLogin = () => {
         justifyContent: 'center',
       }}
     >
-      <form name="karan" onSubmit={handleSubmit(finish)}>
+      <form onSubmit={handleSubmit(finish)}>
         <div
           style={{
             display: 'flex',
