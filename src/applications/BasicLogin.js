@@ -4,19 +4,7 @@ import { useForm } from 'react-hook-form'
 const BasicLogin = () => {
   useEffect(() => {
     document.title = 'Basic Login'
-
-    One()
-    Two()
   }, [])
-
-  async function One() {
-    await setTimeout(() => {
-      console.log('Before')
-    }, 2000)
-  }
-  function Two() {
-    console.log('After')
-  }
 
   const {
     register,
