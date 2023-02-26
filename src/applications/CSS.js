@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/everything.css'
 
 const CSS = () => {
+  useEffect(() => {
+    document.title = 'CSS Games'
+  }, [])
+
   return (
     <div className="main">
+      {/* Google Dino */}
       <div className="dinosaurPlate">
         {/* Head */}
         <div className="black1"></div>
