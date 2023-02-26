@@ -12,6 +12,7 @@ const Home = () => {
   allApps.push({ name: 'Adding Inputs', clickTo: '/addingInputs' })
   allApps.push({ name: 'Counting Characters', clickTo: '/countingCharacters' })
   allApps.push({ name: 'CSS games', clickTo: '/css' })
+  allApps.push({ name: 'Slider Tab', clickTo: '/sliderTab' })
 
   return (
     <div
