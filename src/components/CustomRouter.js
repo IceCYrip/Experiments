@@ -5,7 +5,6 @@ import Home from './Home'
 import AddingInput from '../applications/AddingInputs'
 import CountingCharacters from '../applications/CountingCharacters'
 import BasicLogin from '../applications/BasicLogin'
-import CSS from '../applications/CSS'
 import SliderTab from '../applications/SliderTab'
 
 const CustomRouter = () => {
@@ -18,7 +17,6 @@ const CustomRouter = () => {
           <Route path="/addingInputs" element={<AddingInput />} />
           <Route path="/countingCharacters" element={<CountingCharacters />} />
           <Route path="/basicLogin" element={<BasicLogin />} />
-          <Route path="/css" element={<CSS />} />
           <Route path="/sliderTab" element={<SliderTab />} />
         </Routes>
       </BrowserRouter>
